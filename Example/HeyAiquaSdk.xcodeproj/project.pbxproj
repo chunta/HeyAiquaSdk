@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48B7A7D3AC1D62419681D2F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		48B7A7D3AC1D62419681D2F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -29,8 +29,8 @@
 		8054A0E263AE067E7A847996 /* Pods-HeyAiquaSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyAiquaSdk_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HeyAiquaSdk_Tests/Pods-HeyAiquaSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		95A12997F1EF117024980537 /* Pods_HeyAiquaSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeyAiquaSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1B5EBAB8AF8A405CC91A63 /* Pods-HeyAiquaSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyAiquaSdk_Tests.release.xcconfig"; path = "Target Support Files/Pods-HeyAiquaSdk_Tests/Pods-HeyAiquaSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C12E8B7368D757E2550D3ABB /* HeyAiquaSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HeyAiquaSdk.podspec; path = ../HeyAiquaSdk.podspec; sourceTree = "<group>"; };
-		F955BFBB0BE886BF455A918C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C12E8B7368D757E2550D3ABB /* HeyAiquaSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HeyAiquaSdk.podspec; path = ../HeyAiquaSdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F955BFBB0BE886BF455A918C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,6 @@
 				8054A0E263AE067E7A847996 /* Pods-HeyAiquaSdk_Tests.debug.xcconfig */,
 				9A1B5EBAB8AF8A405CC91A63 /* Pods-HeyAiquaSdk_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

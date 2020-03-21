@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05EF8B9424266B370014ADF4 /* libQGSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EF8B9324266B370014ADF4 /* libQGSdk.a */; };
-		05EF8B9724266F7D0014ADF4 /* HeySdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EF8B9524266F7D0014ADF4 /* HeySdk.h */; };
-		05EF8B9824266F7D0014ADF4 /* HeySdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EF8B9624266F7D0014ADF4 /* HeySdk.m */; };
+		05EF8BA4242676420014ADF4 /* libQGSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EF8BA3242676420014ADF4 /* libQGSdk.a */; };
+		05EF8BA8242686EA0014ADF4 /* QGWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EF8BA5242686EA0014ADF4 /* QGWKWebView.h */; };
+		05EF8BA9242686EA0014ADF4 /* QGSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EF8BA6242686EA0014ADF4 /* QGSdk.h */; };
+		05EF8BAA242686EA0014ADF4 /* QGInbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EF8BA7242686EA0014ADF4 /* QGInbox.h */; };
 		3578E80315C957632BF6A9EC9357201B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5EEBE27954C057BAA9A0C407CC108B2A /* HeyAiquaSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA52CF13B0AFB27C1BA454B3BF231D9 /* HeyAiquaSdk-dummy.m */; };
 		7D87D50B70DEF00361E2827E8B16A30A /* HeyAiquaSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB9C5101873588A1A08AF482B342A9A /* HeyAiquaSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,8 +18,10 @@
 
 /* Begin PBXFileReference section */
 		05EF8B9324266B370014ADF4 /* libQGSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQGSdk.a; path = ../../HeyAiquaSdk/Classes/libQGSdk.a; sourceTree = "<group>"; };
-		05EF8B9524266F7D0014ADF4 /* HeySdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HeySdk.h; path = HeyAiquaSdk/Classes/HeySdk.h; sourceTree = "<group>"; };
-		05EF8B9624266F7D0014ADF4 /* HeySdk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HeySdk.m; path = HeyAiquaSdk/Classes/HeySdk.m; sourceTree = "<group>"; };
+		05EF8BA3242676420014ADF4 /* libQGSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQGSdk.a; path = HeyAiquaSdk/Classes/libQGSdk.a; sourceTree = "<group>"; };
+		05EF8BA5242686EA0014ADF4 /* QGWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QGWKWebView.h; path = HeyAiquaSdk/Classes/QGWKWebView.h; sourceTree = "<group>"; };
+		05EF8BA6242686EA0014ADF4 /* QGSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QGSdk.h; path = HeyAiquaSdk/Classes/QGSdk.h; sourceTree = "<group>"; };
+		05EF8BA7242686EA0014ADF4 /* QGInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QGInbox.h; path = HeyAiquaSdk/Classes/QGInbox.h; sourceTree = "<group>"; };
 		1FE4FAB8828D4569BD741BFA4F9A9855 /* Pods-HeyAiquaSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeyAiquaSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		274DCC34657E200FFA599228D9D1732E /* HeyAiquaSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HeyAiquaSdk-Info.plist"; sourceTree = "<group>"; };
 		283ACEFC293343A06A9ABE480E3D4BCD /* Pods-HeyAiquaSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeyAiquaSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -48,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05EF8B9424266B370014ADF4 /* libQGSdk.a in Frameworks */,
+				05EF8BA4242676420014ADF4 /* libQGSdk.a in Frameworks */,
 				3578E80315C957632BF6A9EC9357201B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,8 +85,10 @@
 		8CCC1A5C40346314AE061DC13583540B /* HeyAiquaSdk */ = {
 			isa = PBXGroup;
 			children = (
-				05EF8B9524266F7D0014ADF4 /* HeySdk.h */,
-				05EF8B9624266F7D0014ADF4 /* HeySdk.m */,
+				05EF8BA7242686EA0014ADF4 /* QGInbox.h */,
+				05EF8BA6242686EA0014ADF4 /* QGSdk.h */,
+				05EF8BA5242686EA0014ADF4 /* QGWKWebView.h */,
+				05EF8BA3242676420014ADF4 /* libQGSdk.a */,
 				D091176FA98270A4189D99F36F53557E /* Pod */,
 				2C37AB6476CE1CDC653DE3A5D9B50615 /* Support Files */,
 			);
@@ -169,8 +174,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05EF8B9724266F7D0014ADF4 /* HeySdk.h in Headers */,
+				05EF8BA9242686EA0014ADF4 /* QGSdk.h in Headers */,
+				05EF8BA8242686EA0014ADF4 /* QGWKWebView.h in Headers */,
 				7D87D50B70DEF00361E2827E8B16A30A /* HeyAiquaSdk-umbrella.h in Headers */,
+				05EF8BAA242686EA0014ADF4 /* QGInbox.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +245,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EEBE27954C057BAA9A0C407CC108B2A /* HeyAiquaSdk-dummy.m in Sources */,
-				05EF8B9824266F7D0014ADF4 /* HeySdk.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +269,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "${SRCROOT}/../../HeyAiquaSdk/Classes/**";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../**";
 				MODULEMAP_FILE = "Target Support Files/HeyAiquaSdk/HeyAiquaSdk.modulemap";
 				PRODUCT_MODULE_NAME = HeyAiquaSdk;
 				PRODUCT_NAME = HeyAiquaSdk;
@@ -354,7 +360,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "${SRCROOT}/../../HeyAiquaSdk/Classes/**";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../**";
 				MODULEMAP_FILE = "Target Support Files/HeyAiquaSdk/HeyAiquaSdk.modulemap";
 				PRODUCT_MODULE_NAME = HeyAiquaSdk;
 				PRODUCT_NAME = HeyAiquaSdk;
