@@ -1,0 +1,6 @@
+framework module HeyAiquaSdk {
+  umbrella header "HeyAiquaSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

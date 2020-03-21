@@ -1,0 +1,6 @@
+framework module Pods_HeyAiquaSdk_Tests {
+  umbrella header "Pods-HeyAiquaSdk_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

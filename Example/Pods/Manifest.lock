@@ -1,0 +1,16 @@
+PODS:
+  - HeyAiquaSdk (0.1.0)
+
+DEPENDENCIES:
+  - HeyAiquaSdk (from `../`)
+
+EXTERNAL SOURCES:
+  HeyAiquaSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HeyAiquaSdk: ce8a925fc2196f80d2998b38e8557b07dd482bdf
+
+PODFILE CHECKSUM: b33ac8ba5eea90e84bc20a15cfc14fcf22e68f35
+
+COCOAPODS: 1.9.1
