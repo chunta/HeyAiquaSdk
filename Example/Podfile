@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HeyAiquaSdk_Tests' do
+  pod 'HeyAiquaSdk', :path => '../'
+  
+  
+end
